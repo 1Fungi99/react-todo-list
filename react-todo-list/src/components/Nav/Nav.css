@@ -1,0 +1,8 @@
+nav {
+  background-color: #7fe5f0;
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}

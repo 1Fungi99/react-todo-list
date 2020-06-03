@@ -1,0 +1,27 @@
+.to_do_item {
+  color: white;
+  width: 200px;
+}
+
+.delete_button {
+  border: none;
+  color: white;
+  background-color: red;
+  padding: 5px;
+  padding-top: 2px;
+  width: 50px;
+  border-radius: 50px;
+  margin-top: -5px;
+}
+
+.delete_button:hover {
+  cursor: pointer;
+  background-color: darkred;
+}
+
+.line {
+  color: white;
+  width: 200px;
+  float: left;
+  margin-top: 0px;
+}
