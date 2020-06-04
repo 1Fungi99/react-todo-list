@@ -1,17 +1,32 @@
 .to_do_item {
   color: white;
-  width: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.list_item {
+  /* background-color: darkblue; */
+  margin-bottom: 50px;
+}
+
+.line {
+  color: white;
+  width: 100%;
+  float: left;
+  margin-top: 0px;
 }
 
 .delete_button {
+  text-align: center;
   border: none;
   color: white;
   background-color: red;
   padding: 5px;
   padding-top: 2px;
-  width: 50px;
+  width: 140px;
   border-radius: 50px;
   margin-top: -5px;
+  float: left;
 }
 
 .delete_button:hover {
@@ -19,9 +34,25 @@
   background-color: darkred;
 }
 
-.line {
+.complete_to_do {
+  text-align: center;
+  border: none;
   color: white;
-  width: 200px;
-  float: left;
-  margin-top: 0px;
+  background-color: blue;
+  padding: 5px;
+  padding-top: 2px;
+  width: 140px;
+  border-radius: 50px;
+  margin-top: -5px;
+  float: right;
+}
+
+.complete_to_do:hover {
+  cursor: pointer;
+  background-color: darkblue;
+}
+
+.active {
+  color: red;
+  text-decoration: line-through;
 }

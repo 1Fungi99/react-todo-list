@@ -7,12 +7,6 @@ const Nav = (props) => {
     <>
       <nav>
         <h1 className="logo">React Todo List</h1>
-        <button
-          className="massDelete"
-          onClick={(e) => props.handleMassDelete(e)}
-        >
-          Mass Deletion
-        </button>
       </nav>
     </>
   );

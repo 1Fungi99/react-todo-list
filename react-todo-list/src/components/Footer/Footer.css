@@ -1,0 +1,14 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.massDelete {
+  width: 10%;
+  background-color: #e7d167;
+  border-radius: 100px;
+}
